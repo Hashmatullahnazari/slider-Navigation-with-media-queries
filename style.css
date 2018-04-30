@@ -3,24 +3,22 @@
   margin: 0;
   padding: 0;
 }
+
 body
+
 {
-  
-
-
-
-    font-family: 'Gugi', cursive;
-
-
-
+  font-family: 'Gugi', cursive;
 }
+
 .box
 {
   width: 33.33%;
+  height: 450px;
   float: left;
   word-wrap: break-word;
   text-align: center;
   box-sizing: border-box;
+  padding-top: 7%;
 }
 
 .box .fa {
@@ -83,12 +81,15 @@ nav ul
 
 {
   list-style-type: none;
+  padding-left: 200px;
 }
 
 nav li
 
 {
-  float: right;
+  float: left;
+
+
 }
 
 nav ul li a
@@ -106,7 +107,7 @@ nav ul li a:hover, a:focus
   cursor: pointer;
   transition:  1s ease;
   color: red;
-background: -webkit-linear-gradient(left, rgba(242,246,248,1) 0%,rgba(216,225,231,1) 50%,rgba(181,198,208,1) 51%,rgba(224,239,249,1) 100%); /* Chrome10-25,Safari5.1-6 */}
+background: -webkit-linear-gradient(left, rgba(30,87,153,1) 0%,rgba(32,124,202,1) 39%,rgba(41,137,216,1) 50%,rgba(125,185,232,1) 100%); /* Chrome10-25,Safari5.1-6 */}
 .btn
 {
 
@@ -217,7 +218,22 @@ nav .container-wrapper
   to {opacity: 1}
 }
 
+.column1
+{
+  width: 100%;
+  border: 1px solid red;
+}
 
+   
+nav ul input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 20px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+  
 
 @media only screen and (max-width: 750px) {
   
@@ -231,6 +247,7 @@ nav .container-wrapper
   {
     width: 100%;
   }
+  
    nav .logo
   
   {
@@ -239,6 +256,14 @@ nav .container-wrapper
     float: none;
 
   }
+  
+  nav .container-wrapper input[type=text] {
+    float: none;
+    padding: 6px;
+    font-size: 17px;
+        width: 100%;
+
+}
 
   nav ul
   {
@@ -268,8 +293,22 @@ background: -webkit-linear-gradient(left, rgba(183,222,237,1) 0%,rgba(113,206,23
     display: block;
    
   }
-
-
   
+ @media only screen and (max-width: 725px) {
+  
+
+  .box1, .box2, .box3
+{
+  width: 100%;
 }
 
+   nav ul
+
+{
+  padding-left: 0;
+}
+
+   
+  }
+
+ 
