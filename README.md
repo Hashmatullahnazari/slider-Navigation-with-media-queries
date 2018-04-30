@@ -1,1 +1,1 @@
-# slider-Navigation-with-media-queries
+# <!--Media Queries applied to Navigation Bar, and Body-->
